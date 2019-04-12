@@ -41,8 +41,9 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatTreeModule,
+  MatTreeModule
 } from '@angular/material';
+import {DragDropModule}  from '@angular/cdk/drag-drop';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -87,6 +88,7 @@ import {ExpansionOverviewExample} from './app/expansion-overview-example';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
+    DragDropModule
   ]
 })
 export class DemoMaterialModule {}
