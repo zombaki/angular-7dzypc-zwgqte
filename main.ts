@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HelloComponent } from './app/hello/hello.component';
+import {C1Component} from './app/c1/c1.component';
 import {
   MatAutocompleteModule,
   MatBadgeModule,
@@ -105,7 +106,8 @@ export class DemoMaterialModule {}
   ],
   entryComponents: [ExpansionOverviewExample],
   declarations: [ExpansionOverviewExample,
-  HelloComponent],
+  HelloComponent,
+  C1Component],
   bootstrap: [ExpansionOverviewExample],
   providers: []
 })
